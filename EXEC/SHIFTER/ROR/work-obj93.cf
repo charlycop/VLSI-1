@@ -1,0 +1,7 @@
+v 4
+file . "ror_tb.vhdl" "25cb2226aad2339aa7444029c37bef8bd0ea56e8" "20191106095729.050":
+  entity shifter_test_ror at 1( 0) + 0 on 19;
+  architecture test of shifter_test_ror at 9( 144) + 0 on 20;
+file . "shifter_ror.vhdl" "e1e09d3c4d8ece4656dee2c8d0843b396ea69b90" "20191106095726.341":
+  entity shifter_ror at 1( 0) + 0 on 17;
+  architecture behavioral of shifter_ror at 13( 335) + 0 on 18;

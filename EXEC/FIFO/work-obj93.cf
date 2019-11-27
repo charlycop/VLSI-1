@@ -1,0 +1,4 @@
+v 4
+file . "fifo_72b.vhdl" "37a6cdceffcb06a7f0c341ebfda9ab7a0ae84825" "20191124212655.754":
+  entity fifo at 1( 0) + 0 on 11;
+  architecture dataflow of fifo at 24( 377) + 0 on 12;

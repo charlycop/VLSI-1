@@ -1,0 +1,7 @@
+v 4
+file . "shifter_lsl.vhdl" "b973190044235b0d26d4e7ca17991a23d5f071da" "20191124213544.773":
+  entity shifter_lsl at 1( 0) + 0 on 25;
+  architecture behavioral of shifter_lsl at 13( 338) + 0 on 26;
+file . "lsl_tb.vhdl" "e1a849bb630918438c75db82425f382a44370e86" "20191106093127.679":
+  entity shifter_test_lsl at 1( 0) + 0 on 23;
+  architecture test of shifter_test_lsl at 9( 144) + 0 on 24;
