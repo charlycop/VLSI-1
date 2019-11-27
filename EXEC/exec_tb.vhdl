@@ -124,10 +124,11 @@ begin
 				dec_alu_cmd <= "10";
 			elsif i = 6 or i = 7 then
 				dec_shift_ror <= '1';
+				dec_alu_cmd <= "11";
 			end if;
 
 			dec_shift_val <= std_logic_vector(to_signed(integer(rand*15.0), dec_shift_val'length));--std_logic_vector(to_signed(integer(rand*31.0), dec_shift_val'length));
-		
+			
 			wait for 10 ns;
 			end loop;
 	wait;
